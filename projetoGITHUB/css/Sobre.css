@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+ 
+  padding: 75px;
+  background-color: black;
+}
+h1{
+  color:white;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 300;
+  
+}
+main h1{
+  border-bottom: 2px solid black;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    color: black;
+    padding-top: 10%;
+}
+main{
+
+  width: 80%;
+  margin: 0 auto;
+}
+div{
+display:flex ;
+  justify-content: space-around;
+
+}
+
+div p{
+font-size:30px;
+padding-left: 4%;
+width:30%;
+
+}
+
+ figure img{
+align-items: center;
+width: 30%;
+padding-left: 35%;
+padding-top: 10%;
+}
+
+
+
+footer{
+  margin-top: 50px;
+}
+
+footer div{
+  width: 80%;
+  margin: 0 auto;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div ul{
+
+  display: flex;
+}
+
+footer div ul li{
+  list-style: none;
+  padding-left: 25px;
+  padding-right: 25px;
+ 
+}
+
+footer div ul li a{
+  color:black ;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer div ul li a:hover{
+  text-shadow: 2px 2px 2px white;
+  transition: 0.5;
+}
+
+nav{
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
